@@ -1,0 +1,3 @@
+mintues=int(input("enter time in mintues:"))
+hours=mintues//60
+print("hours:",hours)
