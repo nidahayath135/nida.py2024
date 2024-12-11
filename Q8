@@ -1,0 +1,8 @@
+x = 10
+y = 40
+if x == y:
+    print("Equal")
+elif x > y:
+    print("Greater")
+else:
+    print("Smaller")
