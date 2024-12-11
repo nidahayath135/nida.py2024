@@ -1,0 +1,6 @@
+x=10
+y=5
+if x>y and y>3:
+  print("condition met")
+else:
+  print("condition is not met")
