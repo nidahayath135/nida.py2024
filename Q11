@@ -1,0 +1,9 @@
+nums = [1, 2, 3, 4, 5]
+
+# Check if all numbers are greater than 0
+if all(num > 0 for num in nums):
+    print("All numbers are positive")
+
+# Check if any number is divisible by 3
+if any(num % 3 == 0 for num in nums):
+    print("Some numbers are divisible by 3")
