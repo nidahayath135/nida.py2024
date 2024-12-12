@@ -1,0 +1,4 @@
+def nida(**numbers):
+  for key , value in numbers.items():
+    print(f"{key}:{value}")
+nida(name="nida", age="19",city="new banglore")
