@@ -1,0 +1,5 @@
+def greet(name, age):
+    print(f"Hello {name}, you are {age} years old.")
+
+greet(age=19, name="Nida")  # Keyword: order doesn’t matter
+
