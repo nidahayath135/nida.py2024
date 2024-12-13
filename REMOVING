@@ -1,0 +1,3 @@
+#removing
+del student["marks"]
+print(student)
