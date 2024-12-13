@@ -1,0 +1,6 @@
+#dictionary
+student={
+    "name":"nida",
+    "age":20,
+    "marks":90
+}
