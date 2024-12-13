@@ -1,0 +1,4 @@
+#set operations
+#adding items
+numbers.add(5)
+print(numbers)
