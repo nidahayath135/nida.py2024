@@ -1,0 +1,5 @@
+with open("/content/nida.txt","w") as file:
+    file.write("python is awesome!\n")
+
+with open("/content/nida.txt","r") as file:
+    print(file.read()) 
