@@ -1,0 +1,13 @@
+class negativenumbererror(Exception): 
+  pass
+
+def check_positive(number):
+    if number < 0:
+        raise negativenumbererror("negative number entered.")
+
+try:
+    num = int(input("enter a number:")) 
+    check_positive(num)
+    print("number is positive:", num)
+except negativenumbererror as e:
+    print(e)
