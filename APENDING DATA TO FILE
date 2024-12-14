@@ -1,0 +1,5 @@
+with open("/content/nida.txt","a") as file:
+    file.write("lets learn file handling.\n")
+     
+    with open("/content/nida.txt","r") as file:
+        print(file.read())
